@@ -1,9 +1,10 @@
-Weight = int(input("Weight: "))
-ii = input("(K)g or (L)bs: ")
-L = Weight / 0.45
-K =  Weight / 2.2
+Weight = float(input("Weight: "))
+unit = input("What weight did you select? (K)g or (L)bs: ")
+K = (Weight * 0.4536)
+L =  (Weight * 2.205)
 
-if ii == K:
-    print(L)
-
-
+if unit.upper == "K":
+    print('Weight in pounds: ',   L)
+elif unit.upper == "L":
+    print('Weight in Kilograms: ',  K)
+print("Conversion Complete")
