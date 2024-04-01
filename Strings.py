@@ -7,4 +7,9 @@ print('Python' in course) # Give a boolean answer
 # print(course.lower()) - this puts the course = to all lowercase
 
 
- 
+
+#--- this is a multiline string
+# print("""I am Iron Man 
+#No, I am Tony Stark
+# No, I am Poppy""")
+
